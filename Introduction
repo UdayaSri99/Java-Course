@@ -47,3 +47,14 @@
 // Boolean Literals: Represent truth values, either true or false.
 // String Literals: Represent sequences of characters enclosed in double quotes. Examples: "Hello", "Java", "123".
 // // Null Literal: Represents the absence of a value, denoted by null
+
+
+// java suports UNICODE not ASCII
+// In Java, literals are fixed values that are directly embedded into the code. They represent constant values of primitive data types, such as integers, floating-point numbers, characters, and boolean values, as well as strings. 
+// Here's a breakdown of different types of literals in Java:
+// Integer Literals: Represents whole numbers. Examples: 10, -5, 0, 1000.
+// Floating-Point Literals: Represent numbers with decimal points. Examples: 3.14, -2.5, 0.0.
+// Character Literals: Represent single characters enclosed in single quotes. Examples: 'a', 'Z', '%'.
+// Boolean Literals: Represent truth values, either true or false.
+// String Literals: Represent sequences of characters enclosed in double quotes. Examples: "Hello", "Java", "123".
+// // Null Literal: Represents the absence of a value, denoted by null
