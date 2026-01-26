@@ -1,0 +1,49 @@
+//java is need for to run the program 
+//javac is need for run the compiler
+//extension is FileName.java
+// The Java Virtual Machine (JVM) is the runtime environment that allows Java programs to execute on various platforms.
+//most structured laanguage is java comapred to other languages 
+// jshell is a conceptthat you can write java code in command prompt
+// semicon for end of that line 
+
+
+// if we have jvm we can run java appication if we dont have jvm we cant run java application 
+//java is plaform independent it means it can run i any os or hardware what it is inly need it is its only need jvm
+// but jvm is Dependent 
+//java code coversts into java compiler and that code goes / coverst to byte code and that goes to jvm  and jvm looks for main 
+//byte code is .class extension
+//you file need to have ,main method and main expect parameters 
+//JRE Java RunTime Environment
+//JDK 
+//JDK have JRE inside and JRE have JVM inside
+//java is strongly type language 
+//in java language 1st is compilation and tehn after is run
+//printlnn in to print in another line
+
+//Datatypes : Primitive data types and Non_primitive types
+//Data types are used to define the type of data that a variable can hold
+
+//Primitive: integer, float, characters , boolean
+//integer : int-4bytes, byte=1 byte , short-2 bytes, Long - 8bytes
+//char : 2 bytes for char we have to use only single quots ''
+//Boolean in java Is only True or false not 0 or 1 like others
+//float : 4 bytes
+//double : 8 bytes
+
+
+//Non primitive : String , Arrays , Classes , Interfaces
+// String is not a primitive data type it is a class , a string is a sequence of characters
+//Arrays is a collection of similar data types
+//Classes are blueprints for creating objects
+//Interfaces are contracts that classes can implement
+
+
+// java suports UNICODE not ASCII
+// In Java, literals are fixed values that are directly embedded into the code. They represent constant values of primitive data types, such as integers, floating-point numbers, characters, and boolean values, as well as strings. 
+// Here's a breakdown of different types of literals in Java:
+// Integer Literals: Represents whole numbers. Examples: 10, -5, 0, 1000.
+// Floating-Point Literals: Represent numbers with decimal points. Examples: 3.14, -2.5, 0.0.
+// Character Literals: Represent single characters enclosed in single quotes. Examples: 'a', 'Z', '%'.
+// Boolean Literals: Represent truth values, either true or false.
+// String Literals: Represent sequences of characters enclosed in double quotes. Examples: "Hello", "Java", "123".
+// // Null Literal: Represents the absence of a value, denoted by null
