@@ -1,3 +1,4 @@
+package Basics;
 //Type casting is a process in which the programmer manually converts one data type into another data type. Type conversion is a process in which the data type is automatically converted into another data type. Method. Explicitly done by the programmer using casting operators
 //small to big size is called widening or implicit type casting
 //big to small size is called narrowing or explicit type casting
