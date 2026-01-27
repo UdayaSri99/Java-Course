@@ -11,7 +11,7 @@ public class LogicalOperator{
         boolean a = true;
         boolean b = false;
         // Logical AND
-        System.out.println("a && b" + (a && a)); // false
+        System.out.println("a && b" + (a && b)); // false
         // Logical OR
         System.out.println("a || b " + (a || b)); // true
         // Logical NOT
