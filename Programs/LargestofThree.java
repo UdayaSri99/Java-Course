@@ -19,5 +19,6 @@ public class LargestofThree{
             System.out.println("Num3 is the Largest");
 
     }
+    sc.close();
 }
 }

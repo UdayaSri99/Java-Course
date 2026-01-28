@@ -14,7 +14,7 @@ public class LargestOfTwo {
     }else{
         System.out.println("Num2 is Greater");
     }
-
+    sc.close();
     }
 }
 
