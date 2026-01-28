@@ -1,0 +1,44 @@
+//class is nothing but a blueprint for creating objects
+//it defines properties and behaviors that the created objects will have
+
+//Object is an instance of a class
+//it is created based on the structure defined by the class
+//Objects hold specific values for the properties defined in the class and can perform the behaviors defined by the class
+
+// example: dog its color and breed are properties
+//barking and fetching are behaviors 
+
+class Dog {
+    // Properties
+    String color;
+    String breed;
+
+    // Constructor
+    Dog(String color, String breed) {
+        this.color = color;
+        this.breed = breed;
+    }
+
+    // Behavior
+    void bark() {
+        System.out.println("Woof! Woof!");
+    }
+
+    void fetch() {
+        System.out.println("Fetching the ball!");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        // Creating an object of the Dog class
+        Dog myDog = new Dog("Brown", "Labrador");
+
+        // Accessing properties
+        System.out.println("My dog's color: " + myDog.color);
+        System.out.println("My dog's breed: " + myDog.breed);
+
+        // Calling behaviors
+        myDog.bark();
+        myDog.fetch();
+    }
+}
