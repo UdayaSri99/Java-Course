@@ -1,1 +1,26 @@
-//Array: array are 
+/**
+ * ArrayBasics demonstrates fundamental array operations in Java.
+ * 
+ * <p>Arrays are collections of elements of the same type stored in contiguous memory locations.
+ * They provide an efficient way to store and access multiple values using a single variable name.</p>
+ * 
+ * <h2>Key Concepts:</h2>
+ * <ul>
+ *   <li><b>Declaration and Initialization:</b> Arrays can be declared with initial values using curly braces notation.</li>
+ *   <li><b>Indexing:</b> Array elements are accessed using zero-based indices (0 is the first element).</li>
+ *   <li><b>Length Property:</b> The .length property returns the number of elements in the array.</li>
+ *   <li><b>Iteration:</b> Arrays can be traversed using traditional for loops or enhanced for-each loops.</li>
+ *   <li><b>Mutability:</b> Array elements can be modified after initialization by assigning new values to specific indices.</li>
+ *   <li><b>Dynamic Size Declaration:</b> Arrays can be created with a specified size, with elements initialized to default values.</li>
+ * </ul>
+ * 
+ * <h2>Common Use Cases:</h2>
+ * <ul>
+ *   <li>Storing collections of related data (numbers, names, etc.)</li>
+ *   <li>Performing batch operations on multiple items</li>
+ *   <li>Implementing data structures like stacks, queues, and matrices</li>
+ * </ul>
+ * 
+ * <p><b>Note:</b> Once an array is created, its size is fixed and cannot be changed.
+ * For dynamic collections, consider using ArrayList or other Collection classes.</p>
+ */
