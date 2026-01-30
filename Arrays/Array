@@ -3,6 +3,13 @@
 
 // An array is a collection of elements of the same data type, stored in continuous memory locations. It allows you to store multiple values in a single variable, making it easier to manage and manipulate related data. Arrays can be of primitive data types (like int, char, etc.) or objects (like String, custom classes, etc.).
 
+
+//DRAWBACKS OF ARRAY
+// 1. Fixed Size: Arrays have a fixed size, which means you cannot change their size once they are created.
+// 2. Homogeneous Elements: Arrays can only store elements of the same data type.
+// 3. Memory Consumption: Large arrays can consume a lot of memory, especially if they are sparsely populated.
+// 4. No Built-in Methods: Arrays lack built-in methods for common operations like adding or removing elements.
+
 public class ArrayExample {
     public static void main(String[] args) {
         // Declare and initialize an array of integers
