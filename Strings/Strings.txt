@@ -1,0 +1,21 @@
+//String
+// string is a sequence of characters
+
+//Strings are immutable in Java, which means that once a String object is created, it cannot be changed. When you modify a String, a new String object is created in memory, and the original String remains unchanged. This is because Strings are designed to be thread-safe and efficient for use in various applications.
+
+//When you perform operations on a String, such as concatenation or substring extraction, a new String object is created to hold the result. The original String remains unchanged, and any references to it will still point to the original String object in memory.
+
+//This immutability of Strings allows for better performance and security, as it prevents unintended modifications
+//to String objects and allows for efficient memory management. It also enables the use of String literals, which are stored in a common pool and can be shared among multiple references, further optimizing memory usage.
+//In Java, the String class is part of the java.lang package and provides various methods for manipulating and working with strings. Some common operations include concatenation, substring extraction, searching for characters or substrings, and converting between different data types.
+//Overall, the immutability of Strings in Java is a fundamental aspect of their design and contributes to their efficiency and reliability in various programming scenarios.
+//In Java, the String class is a built-in class that represents a sequence of characters. It provides various methods for manipulating and working with strings. Here are some key features and characteristics of the String class in Java:
+//1. Immutability: As mentioned earlier, Strings in Java are immutable, meaning that once a String object is created, it cannot be changed. Any operation that modifies a String will result in the creation of a new String object.
+//2. String Literals: String literals are enclosed in double quotes (e.g., "
+// Hello"). They are stored in a common pool and can be shared among multiple references, which helps optimize memory usage.
+// //3. String Concatenation: You can concatenate strings using the + operator or the concatenate() method. For example, "Hello" + " World" will result in "Hello World".
+// //4. String Methods: The String class provides various methods for manipulating strings, such as length to get the length of a string, charAt to access individual characters, substring to extract a portion of a string, and many more.
+// //5. String Comparison: You can compare strings using the equals() method for content comparison and the == operator for reference comparison. The equals() method checks if the content of two strings is the same, while the == operator checks if two string references point to the same object in memory.
+// //6. String Formatting: The String class provides methods for formatting strings, such as format(), which allows you to create formatted strings using placeholders and arguments.
+// //7. String Immutability Benefits: The immutability of strings allows for better performance and security, as it prevents unintended modifications to String objects and allows for efficient memory management. It also enables the use of String literals, which can be shared among multiple references, further optimizing memory usage.
+// //Overall, the String class in Java is a powerful and essential part of the language, providing a wide range of functionalities for working with strings in various programming scenarios.
