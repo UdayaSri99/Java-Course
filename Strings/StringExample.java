@@ -19,6 +19,6 @@ public class StringExample{
         System.out.println(str1.trim());                           
         System.out.println(str1.replace('o', 'a'));              
         System.out.println(str1.startsWith("Hello"));               
-        System.out.println(str1.endsWith("World"));                   
+        System.out.println(str1.endsWith("World"));                 
     }
 }
